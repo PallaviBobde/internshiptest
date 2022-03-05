@@ -1,0 +1,89 @@
+.home{
+  margin:20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.center{
+  color: white;
+  text-align: center;
+}
+.card{
+  margin:10px;
+  background-color: white;
+  max-width: fit-content;
+  font-size: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card .name{
+  font-size:20px;
+}
+.card .language,.bigcard .language{
+  background-color: rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.card .rating,.bigcard .rating{
+  color: deeppink;
+  /* float: right; */
+  /* height: 20px; */
+}
+.incard,.inbigcard{
+  padding: 10px;
+}
+
+.bigcard{
+  margin:20px;
+  background-color: white;
+  max-width: fit-content;
+  font-size: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+.inbigcard{
+  display: flex;
+  flex-direction: column;
+}
+.inbigcard>*{
+  margin: 10px;
+}
+.bigcard .summary{
+  max-width: 500px;
+}
+.bigcard img{
+  max-height: 80vh;
+}
+.button{
+  color: white;
+  background-color: crimson;
+  padding: 10px 20px;
+  float: right;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none;
+  max-width: fit-content;
+  cursor: pointer;
+}
+button{
+  border: none;
+  background-color: rgb(54, 120, 243)!important;
+}
+
+form{
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+form input{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.formfield{
+  display: flex;
+  margin: 10px;
+}
